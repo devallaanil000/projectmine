@@ -62,7 +62,7 @@ The following visualizations were generated to support insights:
 1. Clone the repository:
     
 bash
-    git clone https://github.com/devallaanil000/call-center-analysis.git
+    git clone https://github.com/devallaanil000/projectmine/edit/main/README.md
 
 2. Navigate to the project directory:
     
