@@ -1,0 +1,43 @@
+Key Insights
+1. Satisfaction Rating Distribution
+Observation: Most calls have a satisfaction rating of 3/5, indicating neutral customer experiences.
+Action: Investigate causes for lack of highly satisfied (5/5) ratings and explore methods to improve customer interaction.
+2. Average Talk Duration by Topic
+Observation: Topics like "Technical Support" and "Contract related" have longer talk durations.
+Action: Streamline agent workflows for these topics to reduce call duration and enhance efficiency.
+3. Speed of Answer vs. Satisfaction Rating
+Observation: Calls with shorter response times (<90 seconds) generally achieve higher satisfaction ratings.
+Action: Set a service level agreement (SLA) target to keep response times under 90 seconds to maintain high customer satisfaction.
+4. Call Distribution by Weekday and Hour
+Observation: Peak call volumes occur on weekdays between 9 AM-12 PM and 4 PM-6 PM.
+Action: Adjust staffing levels to match peak hours and optimize resource allocation.
+5. Agent Performance Analysis
+Observation: Certain agents (e.g., "Becky" and "Diane") handle higher call volumes with consistent satisfaction ratings.
+Action: Identify and replicate best practices from top-performing agents to train others.
+6. Topics with Low Resolutions
+Observation: Topics like "Payment related" and "Technical Support" have lower resolution rates.
+Action: Provide additional training or resources to improve resolution rates for these challenging topics.
+7. Customer Pain Points
+Observation: Low satisfaction ratings correlate with long response times and unresolved issues.
+Action: Investigate unresolved cases and optimize agent workflows to address inefficiencies and improve customer satisfaction.
+Visualizations
+Visualizations were created to help better interpret the data and support the insights:
+
+Satisfaction Rating Distribution: A pie chart showing the breakdown of satisfaction ratings.
+
+Impact: Quick visualization of overall customer satisfaction.
+Average Talk Duration by Topic: A boxplot to compare the average call durations across different topics.
+
+Impact: Clearly shows the variance in call durations, with some topics requiring more time.
+Speed of Answer vs. Satisfaction Rating: A scatter plot or boxplot showing how quicker answers impact customer satisfaction.
+
+Impact: Visualization highlighting that faster responses correlate with higher satisfaction.
+Call Distribution by Weekday and Hour: A heatmap showing call volume distribution by time of day and day of the week.
+
+Impact: Helps in staffing decisions by highlighting peak hours.
+Agent Performance: A bar chart or scatter plot to show agents' performance in terms of call volume and satisfaction.
+
+Impact: Identifies high-performing agents and areas of improvement.
+Tools and Libraries
+Python Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Visualization Tools: Seaborn and Matplotlib for graphs and charts
