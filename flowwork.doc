@@ -1,0 +1,29 @@
+1. Develop an Approach Document Suggesting the Parameters Considered for Providing Insights
+Key Parameters:
+			*	Satisfaction Rating: Measures customer satisfaction on a scale from 1 to 5.
+			*Speed of Answer: Time taken by agents to answer a call.
+			*	Resolution Status: Whether the customer's issue was resolved or not.
+			*	Call Duration: Total time spent on a call.
+			*Weekday & Hour: Helps identify peak call volumes based on the time of day and day of the week.
+			*Agent Performance: Includes the number of calls handled by each agent and their associated satisfaction ratings.
+2. Cleaning and Transforming the Data
+				Handling Missing Data:
+				Filled missing values for columns like Satisfaction rating, Speed of answer, and AvgTalkDuration.
+				Removed rows where essential data (e.g., Resolved, Answered) was missing.
+				Data Transformation:
+				Converted date and time columns into a single datetime field for easier analysis.
+				Calculated new variables such as Response Time (difference between time of call answered and call start time).
+				Aggregated AvgTalkDuration to get topic-wise average durations for better insights.
+				Categorical Encoding:
+				Encoded categorical variables like Topic and Agent to numerical formats to perform analysis.
+3. Analyze the Data, Visualize, and Generate Insights
+Data Analysis:
+					Correlation Analysis: Identified relationships between call attributes like Speed of Answer, AvgTalkDuration, and Satisfaction Rating.
+Trend Analysis: Analyzed call volumes and satisfaction ratings across different weekdays and times.
+Visualization:
+			Created visualizations such as heatmaps for call distribution, boxplots for call duration across topics, and bar charts for agent performance.
+Insights:
+					#Satisfaction Rating Distribution: Most customers rated calls as 3/5, indicating neutral experiences. Suggested further investigation into improving the 5/5 ratings.
+					#Call Duration by Topic: Calls on technical support and contract-related topics were longer, suggesting the need for better training or streamlined workflows for these topics.
+					#Response Time & Satisfaction: Faster response times correlated with higher customer satisfaction, leading to the recommendation to keep response times under 90 seconds.
+					#Peak Call Volumes: Identified peak call hours (9 AM - 12 PM and 4 PM - 6 PM) and recommended adjusting staffing levels during these times.
